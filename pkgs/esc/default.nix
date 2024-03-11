@@ -8,8 +8,8 @@ buildGoModule rec {
     pname = "esc";
     version = "0.8.2";
     src = fetchFromGitHub({
-        owner = pname;
-        repo = "esc";
+        owner = "pulumi";
+        repo = pname;
         rev= "v${version}";
         fetchSubmodules = false;
         sha256 = "sha256-iI5ybbASfVkHHlprrnmrFeDAnrjNF+2TouHIMU/0XHQ=";
