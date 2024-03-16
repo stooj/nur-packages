@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   esc = pkgs.callPackage ./pkgs/tools/admin/esc { };
+  pulumi-3-111-1 = pkgs.callPackage ./pkgs/tools/admin/pulumi3-111-1 { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
