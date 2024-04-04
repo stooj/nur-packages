@@ -14,8 +14,8 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  esc = pkgs.callPackage ./pkgs/tools/admin/esc { };
-  pulumi = pkgs.callPackage ./pkgs/tools/admin/pulumi { };
+  esc = pkgs.callPackage ./pkgs/pulumi/esc { };
+  pulumi = pkgs.callPackage ./pkgs/pulumi/pulumi { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
