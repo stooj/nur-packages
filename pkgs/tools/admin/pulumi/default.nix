@@ -14,7 +14,7 @@
 
 buildGoModule rec {
   pname = "pulumi";
-  version = "3.111.1";
+  version = "3.112.0";
 
   # Used in pulumi-language packages, which inherit this prop
   sdkVendorHash = lib.fakeHash;
