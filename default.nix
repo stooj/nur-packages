@@ -16,6 +16,8 @@
 
   esc = pkgs.callPackage ./pkgs/pulumi/esc { };
   pulumi = pkgs.callPackage ./pkgs/pulumi/pulumi { };
+  pulumi-language-dotnet = pkgs.callPackage ./pkgs/pulumi/pulumi-language-dotnet
+ { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
