@@ -18,6 +18,7 @@
   pulumi = pkgs.callPackage ./pkgs/pulumi/pulumi { };
   pulumi-language-dotnet = pkgs.callPackage ./pkgs/pulumi/pulumi-language-dotnet { };
   pulumi-language-java = pkgs.callPackage ./pkgs/pulumi/pulumi-language-java { };
+  pulumi-language-yaml = pkgs.callPackage ./pkgs/pulumi/pulumi-language-yaml { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
