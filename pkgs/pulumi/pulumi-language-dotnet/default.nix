@@ -1,6 +1,5 @@
 { buildGoModule,
   fetchFromGitHub,
-  # pulumi,
   dotnetCorePackages,
 }:
 buildGoModule rec {
@@ -29,9 +28,4 @@ buildGoModule rec {
     dotnetCorePackages.runtime_6_0
   ];
 
-  # postInstall = ''
-  #   cp ../pulumi-language-python-exec           $out/bin
-  #   cp ../../dist/pulumi-resource-pulumi-python $out/bin
-  #   cp ../../dist/pulumi-analyzer-policy-python $out/bin
-  # '';
 }
